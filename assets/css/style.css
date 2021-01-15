@@ -316,10 +316,6 @@ footer {
         cursor: pointer; }
 
   .app {
-    margin-top: 350px; } }
-@media screen and (max-width: 800px) {
-  .imagePrincipal .texto {
-    z-index: 2;
     margin-top: 350px; }
 
   .equipo {
