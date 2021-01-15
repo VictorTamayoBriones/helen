@@ -1,0 +1,43 @@
+.informacion{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    .texto{
+        width: 40%;
+    }
+    .app{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        .principal{
+            width: 40%;
+            margin: auto;
+            img{
+                width: 100%;
+            }
+        }
+        .op{
+            width: 55%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                width: 28%;
+                margin: auto;
+                cursor: pointer;
+                &:hover{
+                    position: relative;
+                    bottom: 8px;
+                }
+            }
+        }
+    }
+    .discurso{
+        width: 50%;
+        margin: auto;
+        background: #000;
+        video{
+            width: 100%;
+        }
+    }
+}

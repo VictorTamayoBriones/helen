@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HVT</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/video.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <script src="../scripts/video.js"></script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="logo"><a href="#"><i class="fa fa-medkit" aria-hidden="true"></i> HVT</a></li>
+            <div class="container">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../views/app.html">prueba nuestra app</a></li>
+                <li><a href="../views/about.html">sobre nostros</a></li>
+                <li><a href="../views/questions.html">Preguntas frecuentes</a></li>
+            </div>
+        </ul>
+    </header>
+    <div class="titulo"><br>
+        <p>Hola queremos que escuches nuestra historia</p>
+    </div><br>
+    <div class="informacion">
+        <div class="texto">
+            <p>
+                Somos una startUp dediacada al sector de la salud, nuestro objetivo 
+                es poder ayudar a las personas en los momentos dificiles, sabemos que 
+                en las emergencias medicas el tiempo es crucial, encontrar un doctor para atendernos,
+                o un hospital con espacio disponible que cuente con nuestro seguro medico y que este lo mas cerca posible
+                es todo lo que queremos en esos momentos. Con nuestra ayuda puedes lograr eso en un tiempo increible
+                nostros te ayudamos a contatar rapidamente con un doctor o a encontrar un hospital que sea
+                perfecto para ti. No lo pienses mas y prueba nuestra app.
+            </p>
+        </div>
+        <div class="discurso">
+			<video  class="video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="video">
+				<source src="../assets/images/6 Errores Psicológicos de los Programadores 🧠 ¿TU LOS TIENES ¿Conocías Estos Fallos de la Mente 💢.mp4">
+			</video>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="name">
+                <p>HVT</p>
+                <p>El tiempo es vida</p>
+            </div>
+
+            <div class="redes">
+                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="../scripts/main.js"></script>
+    <script>
+		var reproductor = videojs('video', {
+			fluid: true
+		});
+	</script>
+</body>
+</html>

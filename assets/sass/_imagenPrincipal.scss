@@ -1,0 +1,41 @@
+.imagePrincipal{
+    width: 100%;
+    img{
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    .texto{
+        z-index: 2;
+        position: relative;
+        font-weight: 600;
+        background: $traslucido;
+        width: 40%;
+        margin:auto;
+        border-radius: 12px;
+        padding:12px;
+        top: 200px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.8);
+        p{
+            color:#fff;
+            font-size: 30px;
+            text-align: center;
+        }
+        button{
+            background: $azul;
+            border:none;
+            border-radius:12px;
+            color:#fff;
+            padding: 8px 15px;
+            margin: auto;
+            margin-top: 10px;
+            text-align: center;
+            &:hover{
+                background: $azulOscuro;
+                cursor: pointer;
+            }
+        }
+    }
+}

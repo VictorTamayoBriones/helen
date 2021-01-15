@@ -1,0 +1,33 @@
+.app{
+    width: 100%;
+    background: #fff;
+    margin-top: 650px;
+    .titulo{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 50px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .detalles{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        .texto{
+            width: 30%;
+            font-size: 20px;
+            margin-right: 12px;
+        }
+        .imagen{
+            width: 50%;
+            display: flex;
+            img{
+                width: 40%;
+                margin: auto;
+                margin-right: 18px;
+            }
+        }
+    }
+}
