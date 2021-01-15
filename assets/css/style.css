@@ -216,11 +216,13 @@ footer {
           position: relative;
           bottom: 8px; }
   .informacion .discurso {
-    width: 50%;
+    width: 560px;
+    height: 315px;
     margin: auto;
     background: #000; }
-    .informacion .discurso video {
-      width: 100%; }
+    .informacion .discurso iframe {
+      width: 560px;
+      height: 315px; }
 
 .video {
   width: 100%;
