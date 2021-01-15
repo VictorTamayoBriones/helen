@@ -376,5 +376,36 @@ footer {
 
   .app {
     margin-top: 250px; } }
+.questions {
+  width: 100%; }
+  .questions .container {
+    width: 80%;
+    margin: auto; }
+    .questions .container .pregunta {
+      width: 70%;
+      margin: auto;
+      border: 1px solid #1657ce;
+      border-radius: 12px;
+      display: flex;
+      margin-bottom: 15px; }
+      .questions .container .pregunta .usuario, .questions .container .pregunta .we {
+        font-size: 35px;
+        padding: 12px; }
+      .questions .container .pregunta .info {
+        width: 100%; }
+        .questions .container .pregunta .info .preguntaUser, .questions .container .pregunta .info .respuesta {
+          width: 50%;
+          padding: 10px;
+          font-size: 18px;
+          background: #707070;
+          border-radius: 12px;
+          margin: 8px; }
+        .questions .container .pregunta .info .respuesta {
+          transform: translateX(100%);
+          background: #1657ce;
+          color: #fff; }
+      .questions .container .pregunta .we {
+        float: left;
+        transform: translateY(45%); }
 
 /*# sourceMappingURL=style.css.map */
