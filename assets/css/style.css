@@ -20,6 +20,12 @@ header {
   position: relative;
   z-index: 4;
   position: fixed; }
+  header button {
+    width: 10%;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute; }
   header ul {
     padding: 12px;
     display: flex;
@@ -487,6 +493,72 @@ footer {
       .imagePrincipal .texto button:hover {
         background: #0147c9;
         cursor: pointer; } }
+@media screen and (max-width: 475px) {
+  .imagePrincipal .texto {
+    top: 18px; }
+    .imagePrincipal .texto p {
+      font-size: 12px; }
+    .imagePrincipal .texto button {
+      padding: 5px 8px;
+      font-size: 10px; }
+
+  .app {
+    margin-top: 120px; }
+    .app .titulo {
+      width: 90%;
+      font-size: 13px; }
+    .app .detalles {
+      display: flex;
+      flex-direction: column;
+      margin-top: -40px; }
+      .app .detalles .texto {
+        width: 90%;
+        margin: auto;
+        font-size: 15px; }
+        .app .detalles .texto p {
+          text-align: center; }
+      .app .detalles .imagen {
+        width: 90%;
+        margin: auto;
+        margin-top: 12px;
+        display: flex; }
+        .app .detalles .imagen img {
+          width: 90px;
+          margin: auto; }
+
+  .equipo {
+    width: 100%;
+    background: #fff;
+    top: 100px;
+    position: relative;
+    z-index: 2; }
+    .equipo .titulo {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 20px;
+      font-size: 15px; }
+      .equipo .titulo p {
+        text-align: center;
+        font-size: 22px; }
+      .equipo .titulo .sub {
+        font-weight: 300;
+        color: #707070; }
+    .equipo .personas .persona {
+      width: 45%;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin: auto;
+      margin-bottom: 14px; }
+      .equipo .personas .persona .texto {
+        padding: 2px;
+        text-align: center; }
+        .equipo .personas .persona .texto .name {
+          font-weight: 600;
+          font-size: 12px; }
+        .equipo .personas .persona .texto .job {
+          font-weight: 300;
+          color: #1657ce;
+          font-size: 12px; } }
 .questions {
   width: 100%; }
   .questions .container {

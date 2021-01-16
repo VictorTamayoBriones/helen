@@ -326,3 +326,93 @@
         }
     }
 }
+
+@media screen and(max-width: 475px){
+    .imagePrincipal{
+        .texto{
+            top: 18px;
+            p{
+                font-size: 12px;
+            }
+            button{
+                padding: 5px 8px;
+                font-size: 10px;
+            }
+        }
+    }
+
+    .app{
+        margin-top: 120px;
+        .titulo{
+            width: 90%;
+            font-size: 13px;
+        }
+        .detalles{
+            display: flex;
+            flex-direction: column;
+            margin-top:-40px;
+            .texto{
+                width:90%;
+                margin:auto;
+                font-size: 15px;
+                p{
+                    text-align: center;
+                }
+            }
+            .imagen{
+                width: 90%;
+                margin:auto;
+                margin-top:12px;
+                display: flex;
+                img{
+                    width: 90px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+    .equipo{
+        width: 100%;
+        background: #fff;
+        top: 100px;
+        position: relative;
+        z-index: 2;
+        .titulo{
+            width: 90%;
+            margin: auto;
+            margin-bottom: 20px;
+            font-size: 15px;
+            p{
+                text-align: center;
+                font-size: 22px;
+            }
+            .sub{
+                font-weight: 300;
+                color:#707070;
+            }
+        }
+        .personas{
+            .persona{
+                width: 45%;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin: auto;
+                margin-bottom: 14px;
+                .texto{
+                    padding: 2px;
+                    text-align: center;
+                    .name{
+                        font-weight: 600;
+                        font-size: 12px;
+                    }
+                    .job{
+                        font-weight: 300;
+                        color:$azul;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
