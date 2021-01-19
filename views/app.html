@@ -12,8 +12,11 @@
 <body>
     <header>
         <ul>
-            <li class="logo"><a href="#"></i> Helen</a></li>
-            <div class="container">
+            <div class="datos">
+                <li><button class="btnMenu"><i class="fa fa-bars" aria-hidden="true"></i></button></li>
+                <li class="logo"><a href="#"> Helen</a></li>
+            </div>
+            <div class="menu">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../views/app.html">prueba nuestra app</a></li>
                 <li><a href="../views/about.html">sobre nostros</a></li>
@@ -21,31 +24,37 @@
             </div>
         </ul>
     </header>
-    <br><br><br><br>
     <div class="informacion">
-        <div class="texto">
-            <p>
-                Por el momento nuestra app sigue en desarrollo <br> 
-                Esperala y pruebala para ahorrar tiempo valioso en el momento preciso.
-            </p>
+        <div class="titulo">
+            <p>Helen movil app</p>
         </div>
-        <div class="app">
-            <div class="principal">
-                <img class="inicial"src="../assets/images/mesa_1.png" alt="ventana_1">
+        <div class="info">
+            <div class="texto">
+                <p>
+                    Por el momento nuestra app sigue en desarrollo <br> 
+                    Esperala y pruebala para ahorrar tiempo valioso en el momento preciso.
+                </p>
             </div>
+    
+            <div class="app">
+                <div class="principal">
+                    <img class="inicial"src="../assets/images/mesa_1.png" alt="ventana_1">
+                </div>
+    
+                <div class="op">
+                    <img src="../assets/images/mesa_1.png" alt="ventana_1" onclick="imgSlider('../assets/images/mesa_1.png');">
+                    <img src="../assets/images/mesa_2.png" alt="ventana_2" onclick="imgSlider('../assets/images/mesa_2.png');">
+                    <img src="../assets/images/mesa_3.png" alt="ventana_3" onclick="imgSlider('../assets/images/mesa_3.png');">
+                </div>
+            </div>
+        </div>
 
-            <div class="op">
-                <img src="../assets/images/mesa_1.png" alt="ventana_1" onclick="imgSlider('../assets/images/mesa_1.png');">
-                <img src="../assets/images/mesa_2.png" alt="ventana_2" onclick="imgSlider('../assets/images/mesa_2.png');">
-                <img src="../assets/images/mesa_3.png" alt="ventana_3" onclick="imgSlider('../assets/images/mesa_3.png');">
-            </div>
-        </div>
     </div>
 
     <footer>
         <div class="container">
             <div class="name">
-                <p>HVT</p>
+                <p>Helen</p>
                 <p>El tiempo es vida</p>
             </div>
 
@@ -59,5 +68,7 @@
     </footer>
 
     <script src="../scripts/main.js"></script>
+    <script src="../scripts/jquery.min.js"></script>
+    <script src="../scripts/menu.js"></script>
 </body>
 </html>

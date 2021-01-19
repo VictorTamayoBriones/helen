@@ -1,279 +1,138 @@
-@media screen and(max-width: 1340px){
-    header{
-        ul{
-            width: 100%;
-            li{
-                padding: 10px 20px;
+@media screen and(max-width: 970px){
+    .about{
+        .informacion{
+            flex-wrap: wrap;
+            .texto{
+                width: 90% !important;
+                margin:auto;
             }
-            .container{
-                display: flex;
-                margin-left: 20%;
-            }
-        }
-    }
-
-    .equipo{
-        .personas{
-            .persona{
-                width: 20%;
-                background: #f7f7f7;
-                margin-left: 15px;
-                margin-right: 15px;
-                margin-bottom: 20px;
-            }
-        }
-    }
-
-    .app{
-        margin-top: 550px;
-    }
-}
-
-@media screen and(max-width: 1067px){
-    header{
-        ul{
-            width: 100%;
-            li{
-                padding: 10px 10px;
-            }
-            .container{
-                display: flex;
-                margin-left: 15%;
-                li{
-                    a{
-                        font-size: 15px;
-                    }
-                }
-            }
-        }
-    }
-    .app{
-        margin-top: 450px;
-    } 
-}
-
-@media screen and(max-width: 965px){
-    .imagePrincipal{
-
-        .texto{
-            z-index: 2;
-            position: relative;
-            font-weight: 600;
-            background: $traslucido;
-            width: 40%;
-            margin:auto;
-            border-radius: 12px;
-            padding:12px;
-            top: 80px;
-            display: flex;
-            flex-direction: column;
-            box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.8);
-            p{
-                color:#fff;
-                font-size: 30px;
-                text-align: center;
-            }
-            button{
-                background: $azul;
-                border:none;
-                border-radius:12px;
-                color:#fff;
-                padding: 8px 15px;
+            .discurso{
+                width: 80%;
+                height: 35%;
                 margin: auto;
-                margin-top: 10px;
-                text-align: center;
-                &:hover{
-                    background: $azulOscuro;
-                    cursor: pointer;
+                iframe{
+                    width:80%;
+                    height:35%; 
                 }
             }
         }
-    }
-
-    .app{
-        margin-top: 350px;
-    } 
-
-    .equipo{
-        width: 100%;
-        background: #fff;
-        top: 100px;
-        position: relative;
-        z-index: 2;
-        .titulo{
-            width: 50%;
-            margin: auto;
-            margin-bottom: 20px;
-            p{
-                text-align: center;
-                font-size: 22px;
-            }
-            .sub{
-                font-size: 18px;
-                font-weight: 300;
-                color:#707070;
-            }
-        }
-        .personas{
-            .persona{
-                .texto{
-                    padding: 10px;
-                    .name{
-                        font-weight: 600;
-                        font-size: 15px;
-                    }
-                    .job{
-                        font-weight: 300;
-                        color:$azul;
-                        font-size: 15px;
-                    }
-                }
-            }
-        }
+    
     }
 }
 
-@media screen and(max-width: 800px){
+@media screen and(max-width: 841px){
     header{
         ul{
-            display: flex;
             flex-direction: column;
-            align-content: flex-end;
-            .logo{
-                font-size: 22px;
-                font-weight: 600;
-                text-align: center;
+        }
+        .datos,.menu{
+            justify-content: center;
+        }
+    }
+    .equipo{
+        .titulo{
+            font-size: 20px;
+        }
+    }
+    .informacion{
+        .info{
+            flex-direction: column;
+            .texto{
+                width: 90%;
+                padding: 12px;
+                margin:auto;
+                p{
+                    text-align: center;
+                    font-size: 18px;
+                }
             }
+        }
+    }
+    .frecuentes{
+        .questions{
+            width: 95% !important;
+            margin:auto;
             .container{
                 width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                margin-left: 0px;
-                li{
-                    margin: auto;
+                .pregunta{
+                    width: 85% !important;
                 }
             }
         }
     }
-
-    .imagePrincipal{
-        .texto{
-            font-weight: 400;
-            background: $traslucido;
-            width: 60%;
-            margin:auto;
-            border-radius: 12px;
-            padding:12px;
-            top: 120px;
-            p{
-                font-size: 20px;
-            }
-            button{
-                background: $azul;
-                border:none;
-                border-radius:12px;
-                color:#fff;
-                padding: 8px 15px;
-                margin: auto;
-                margin-top: 10px;
-                text-align: center;
-                &:hover{
-                    background: $azulOscuro;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-
-    .app{
-        margin-top: 250px;
-        .detalles{
-            display: flex;
-            flex-direction: column;
-            .texto{
-                width:80%;
-                margin:auto;
-                font-size: 18px;
-                p{
-                    text-align: center;
-                }
-            }
-            .imagen{
-                width: 80%;
-                margin:auto;
-                margin-top:12px;
-                display: flex;
-                img{
-                    width: 120px;
-                    margin: auto;
-                }
-            }
-        }
-    }    
 }
 
-@media screen and(max-width:669px){
-    .app{
-        margin-top: 150px;
-        .detalles{
-            display: flex;
+@media screen and(max-width: 690px){
+    header{
+        ul{
             flex-direction: column;
-            .texto{
-                width:90%;
-                margin:auto;
-                font-size: 15px;
-                p{
-                    text-align: center;
+        }
+        .datos{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            .logo{
+                width: 100%;
+                text-align: center;
+            }
+            li{
+                button{
+                    position: absolute;
+                    visibility: visible;
+                    opacity: 1;
+                    background: $blanco;
+                    font-size: 20px;
+                    border:none;
+                    margin-top: 10px;
                 }
             }
-            .imagen{
-                width: 90%;
-                margin:auto;
-                margin-top:12px;
-                display: flex;
-                img{
-                    width: 120px;
-                    margin: auto;
-                }
+        }   
+        .menu{
+            flex-direction: column;
+            visibility: hidden;
+            opacity: 0;
+            height: 0px;
+        }
+    }
+    .imagePrincipal{
+        .texto{
+            width: 50%;
+            transform: translate(50%);
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .app{
+        .titulo{
+            font-size: 20px;
+        }
+        .detalles{
+            width: 90%;
+            .texto{
+                font-size: 15px;
             }
         }
     }
     .equipo{
-        width: 100%;
-        background: #fff;
-        top: 100px;
-        position: relative;
-        z-index: 2;
         .titulo{
-            width: 90%;
-            margin: auto;
-            margin-bottom: 20px;
             font-size: 15px;
-            p{
-                text-align: center;
-                font-size: 22px;
-            }
-            .sub{
-                font-weight: 300;
-                color:#707070;
-            }
         }
         .personas{
+            flex-wrap: wrap;
             .persona{
                 width: 40%;
-                margin-left: 0px;
-                margin-right: 0px;
-                margin: auto;
-                margin-bottom: 14px;
+                margin-bottom: 15px;
                 .texto{
                     padding: 5px;
-                    text-align: center;
                     .name{
-                        font-weight: 600;
+                        font-weight: 400;
+                        text-align: center;
                         font-size: 12px;
                     }
                     .job{
                         font-weight: 300;
+                        text-align: center;
                         color:$azul;
                         font-size: 12px;
                     }
@@ -281,138 +140,57 @@
             }
         }
     }
-}
-
-@media screen and(max-width: 565px){
-
-    header{
-        position:relative;
-        ul{
-            .logo{
-                font-size: 22px;
-                font-weight: 600;
-                text-align: center;
-            }
-            .container{
-                width: 100%;
-                flex-direction: column;
-                align-content: flex-start;
-                li{
-                    margin: 2px 0px;
-                }
+    .informacion{
+        .info{
+            .app{
+                width: 90%;
             }
         }
     }
-    .imagePrincipal{
-        .texto{
-            top: 50px;
-            p{
-                font-size: 20px;
+    .about{
+        .informacion{
+            flex-wrap: wrap;
+            .texto{
+                width: 90% !important;
+                margin:auto;
             }
-            button{
-                background: $azul;
-                border:none;
-                border-radius:12px;
-                color:#fff;
-                padding: 8px 15px;
+            .discurso{
+                width: 100% !important;
+                height: 65% !important;
                 margin: auto;
-                margin-top: 10px;
-                text-align: center;
-                &:hover{
-                    background: $azulOscuro;
-                    cursor: pointer;
+                iframe{
+                    width:100% !important;
+                    height:65% !important; 
+                    margin:auto;
                 }
             }
         }
+    
     }
+
 }
 
-@media screen and(max-width: 475px){
+@media screen and(max-width: 400px){
     .imagePrincipal{
         .texto{
-            top: 18px;
+            width: 50%;
+            transform: translate(50%);
             p{
                 font-size: 12px;
             }
             button{
-                padding: 5px 8px;
                 font-size: 10px;
+                padding: 5px 10px;
             }
         }
     }
-
-    .app{
-        margin-top: 120px;
-        .titulo{
-            width: 90%;
-            font-size: 13px;
-        }
-        .detalles{
-            display: flex;
-            flex-direction: column;
-            margin-top:-40px;
+    .informacion{
+        .info{
             .texto{
-                width:90%;
-                margin:auto;
-                font-size: 15px;
                 p{
-                    text-align: center;
-                }
-            }
-            .imagen{
-                width: 90%;
-                margin:auto;
-                margin-top:12px;
-                display: flex;
-                img{
-                    width: 90px;
-                    margin: auto;
+                    font-size: 15px;
                 }
             }
         }
-    }
-
-    .equipo{
-        width: 100%;
-        background: #fff;
-        top: 100px;
-        position: relative;
-        z-index: 2;
-        .titulo{
-            width: 90%;
-            margin: auto;
-            margin-bottom: 20px;
-            font-size: 15px;
-            p{
-                text-align: center;
-                font-size: 22px;
-            }
-            .sub{
-                font-weight: 300;
-                color:#707070;
-            }
-        }
-        .personas{
-            .persona{
-                width: 45%;
-                margin-left: 0px;
-                margin-right: 0px;
-                margin: auto;
-                margin-bottom: 14px;
-                .texto{
-                    padding: 2px;
-                    text-align: center;
-                    .name{
-                        font-weight: 600;
-                        font-size: 12px;
-                    }
-                    .job{
-                        font-weight: 300;
-                        color:$azul;
-                        font-size: 12px;
-                    }
-                }
-            }
-        }
-    }
+    }  
 }

@@ -1,50 +1,37 @@
 .equipo{
-    width: 100%;
-    background: #fff;
-    top: 100px;
-    position: relative;
-    z-index: 2;
+    width: 90%;
+    margin:auto;
+    margin-bottom:20px;
     .titulo{
-        width: 50%;
-        margin: auto;
-        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+        padding: 12px;
+        margin: 12px 0px;
         p{
-            text-align: center;
-            font-size: 22px;
-        }
-        .sub{
-            font-size: 18px;
-            font-weight: 300;
-            color:#707070;
+            color:$azul;
         }
     }
     .personas{
-        width: 90%;
-        margin: auto;
+        width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        align-content: flex-end;
+        justify-content: space-between;
         .persona{
             width: 20%;
-            background: #f7f7f7;
-            margin-left: 30px;
-            margin-right: 30px;
-            margin-bottom: 20px;
-            border-radius: 15px;
+            background: #ffff;
+            border-radius:12px;
             overflow: hidden;
-            box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.6);
+            box-shadow: 5px 5px 10px $grisOscuro;
             .foto{
                 width: 100%;
-                overflow: hidden;
                 img{
-                    max-width: 100%;
+                    width: 100%;
                 }
             }
             .texto{
-                padding: 10px;
+                padding: 5px;
                 .name{
                     font-weight: 600;
-                    font-size: 18px;
                 }
                 .job{
                     font-weight: 300;

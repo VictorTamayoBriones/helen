@@ -1,32 +1,31 @@
 .app{
-    width: 100%;
-    background: #fff;
-    margin-top: 650px;
+    width: 95%;
+    margin: auto;
     .titulo{
-        width: 50%;
-        margin: auto;
-        margin-bottom: 50px;
         text-align: center;
         font-weight: 600;
-        font-size: 22px;
+        font-size: 25px;
+        padding: 12px;
+        p{
+            color:$azul;
+        }
     }
     .detalles{
-        width: 90%;
+        width: 85%;
         margin: auto;
-        display: flex;
-        flex-wrap: wrap;
         .texto{
-            width: 30%;
             font-size: 20px;
-            margin-right: 12px;
+            text-align: center;
+            padding: 12px;
+            line-height: 30px;
         }
         .imagen{
-            width: 50%;
+            width: 100%;
+            margin-top: 10px;
             display: flex;
+            justify-content: space-between;
             img{
-                width: 40%;
-                margin: auto;
-                margin-right: 18px;
+                width: 30%;
             }
         }
     }

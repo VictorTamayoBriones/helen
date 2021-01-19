@@ -1,0 +1,59 @@
+.informacion{
+    width: 100%;
+    .titulo{
+        width: 80%;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        p{
+            color:$azul;
+            font-size: 22px;
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+    .info{
+        width: 95%;
+        margin:auto;
+        display: flex;
+        .texto{
+            width: 40%;
+            padding: 12px;
+            p{
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+        .app{
+            width: 60%;
+            display:flex;
+            justify-content: space-between;
+            padding:12px;
+            .principal{
+                width: 40%;
+                img{
+                    box-shadow: 0px 5px 10px $traslucido;
+                    width: 100%;
+                }
+            }
+            .op{
+                width: 60%;
+                display: flex;
+                padding: 12px;
+                overflow: hidden;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                img{
+                    width: 25%;
+                    height: 40%;
+                    transform: translateY(70%);
+                    cursor: pointer;
+                    &:hover{
+                        position: relative;
+                        bottom:10px;
+                    }
+                }
+            }
+        }
+    }
+}

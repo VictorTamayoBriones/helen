@@ -1,47 +1,10 @@
+@import "generales";
 @import "header";
-@import "imagenPrincipal";
+@import "imgPrincipal";
 @import "app";
 @import "equipo";
-@import "footer.scss";
-@import "informacion";
-@import "video";
-@import "mediaqueris.scss";
-.questions{
-    width: 100%;
-    .container{
-        width: 80%;
-        margin:auto;
-        .pregunta{
-            width: 70%;
-            margin: auto;
-            border:1px solid $azul;
-            border-radius:12px;
-            display: flex;
-            margin-bottom: 15px;
-            .usuario, .we{
-                font-size: 35px;
-                padding: 12px;
-            }
-            .info{
-                width: 100%;
-                .preguntaUser, .respuesta{
-                    width: 50%;
-                    padding: 10px;
-                    font-size: 18px;
-                    background: $gris;
-                    border-radius:12px;
-                    margin:8px;
-                }
-                .respuesta{
-                    transform: translateX(100%);
-                    background: $azul;
-                    color:#fff;
-                }
-            }
-            .we{
-                float: left;
-                transform: translateY(45%);
-            }
-        }
-    }
-}
+@import "footer";
+@import "appPage";
+@import "about";
+@import "frecuentes";
+@import "mediaqueris";

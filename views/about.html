@@ -14,8 +14,11 @@
 <body>
     <header>
         <ul>
-            <li class="logo"><a href="#"></i> Helen</a></li>
-            <div class="container">
+            <div class="datos">
+                <li><button class="btnMenu"><i class="fa fa-bars" aria-hidden="true"></i></button></li>
+                <li class="logo"><a href="#"> Helen</a></li>
+            </div>
+            <div class="menu">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../views/app.html">prueba nuestra app</a></li>
                 <li><a href="../views/about.html">sobre nostros</a></li>
@@ -23,32 +26,38 @@
             </div>
         </ul>
     </header>
-    <div class="titulo"><br>
-        <p>Hola queremos que escuches nuestra historia</p>
-    </div><br>
-    <div class="informacion">
-        <div class="texto">
-            <p>
-                Somos una startUp dediacada al sector de la salud, nuestro objetivo 
-                es poder ayudar a las personas en los momentos dificiles, sabemos que 
-                en las emergencias medicas el tiempo es crucial, encontrar un doctor para atendernos,
-                o un hospital con espacio disponible que cuente con nuestro seguro medico y que este lo mas cerca posible
-                es todo lo que queremos en esos momentos. Con nuestra ayuda puedes lograr eso en un tiempo increible
-                nostros te ayudamos a contatar rapidamente con un doctor o a encontrar un hospital que sea
-                perfecto para ti. No lo pienses mas y prueba nuestra app.
-            </p>
+
+    <div class="about">
+        <div class="titulo">
+            <p>Hola queremos que escuches nuestra historia</p>
         </div>
-        <div class="discurso">
-        <div class="discurso">
-            <iframe src="https://www.youtube.com/embed/0lbexYa5_Ac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+    
+        <div class="informacion">
+    
+            <div class="texto">
+                <p>
+                    Somos una startUp dediacada al sector de la salud, nuestro objetivo 
+                    es poder ayudar a las personas en los momentos dificiles, sabemos que 
+                    en las emergencias medicas el tiempo es crucial, encontrar un doctor para atendernos,
+                    o un hospital con espacio disponible que cuente con nuestro seguro medico y que este lo mas cerca posible
+                    es todo lo que queremos en esos momentos. Con nuestra ayuda puedes lograr eso en un tiempo increible
+                    nostros te ayudamos a contatar rapidamente con un doctor o a encontrar un hospital que sea
+                    perfecto para ti. No lo pienses mas y prueba nuestra app.
+                </p>
+            </div>
+    
+            <div class="discurso">
+                <iframe src="https://www.youtube.com/embed/0lbexYa5_Ac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
         </div>
     </div>
+
 
     <footer>
         <div class="container">
             <div class="name">
-                <p>HVT</p>
+                <p>Helen</p>
                 <p>El tiempo es vida</p>
             </div>
 
@@ -61,11 +70,7 @@
         </div>
     </footer>
 
-    <script src="../scripts/main.js"></script>
-    <script>
-		var reproductor = videojs('video', {
-			fluid: true
-		});
-	</script>
+    <script src="../scripts/jquery.min.js"></script>
+    <script src="../scripts/menu.js"></script>
 </body>
 </html>

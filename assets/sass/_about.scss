@@ -1,0 +1,38 @@
+.about{
+    width: 100%;
+    .titulo{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top:12px;
+        margin-bottom:22px;
+        p{
+            color:$azul;
+            font-weight: 600;
+            font-size: 22px;
+        }
+    }
+    .informacion{
+        width: 95%;
+        margin:auto;
+        display:flex;
+        justify-content: space-between;
+        .texto{
+            width: 65%;
+            padding:12px;
+            p{
+                line-height: 30px;
+            }
+        }
+        .discurso{
+            width: 560px;
+            height: 515px;
+            margin: auto;
+            iframe{
+                width:560px;
+                height:315px; 
+            }
+        }
+    }
+
+}

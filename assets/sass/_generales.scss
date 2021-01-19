@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+$azul: #005CB9;
+$gris: #706E6F;
+$blanco: #FFFFFF;
+$grisClaro: #DEDEDE;
+$grisOscuro: #333333;
+$traslucido:rgba(0, 0, 0, 0.6);
+
+button{
+    cursor: pointer;
+}
+
+.visible{
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+}
