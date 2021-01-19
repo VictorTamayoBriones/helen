@@ -12,6 +12,9 @@ button {
   opacity: 1 !important;
   height: auto !important; }
 
+.up {
+  font-weight: 600; }
+
 header {
   width: 100%;
   background: #FFFFFF;
